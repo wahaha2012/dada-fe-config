@@ -22,11 +22,14 @@ function start() {
   inquirer.prompt([{
     type: 'list',
     name: 'architecture',
-    message: 'Please select lint styles config for your project:',
+    message: 'Please select config item for your project:',
     choices: [
+      // new inquirer.Separator('-== Config ==-'),
       'eslint-airbnb-vue',
       'eslint-dada-vue',
-      'storybook-vue'
+      'storybook-vue',
+      // new inquirer.Separator('-== Tools ==-'),
+      // 'git-branch-history'
     ]
   }]).then(function(answers) {
     let app;

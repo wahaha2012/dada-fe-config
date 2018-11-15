@@ -39,7 +39,7 @@ var app = {
   //finished init
   initFinished: function(callback) {
     console.log(clc.info(currentStep++ + '. storybook config setting finished!'));
-    console.log('***************************');
+    console.log('*********next run**********');
     console.log('$ npm/yarn install');
     console.log('$ npm/yarn storybook');
     console.log('***************************');

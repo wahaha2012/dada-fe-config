@@ -27,21 +27,21 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
+<style scoped>
 .icon-list {
   font-size: 3em;
   color: #ef3600;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  &__item {
-    margin: 1%;
-    padding: 0;
-    width: 23%;
-  }
-  &__icon-name {
-    font-size: 14px;
-    margin: 6px;
-  }
+}
+.icon-list__item {
+  margin: 1%;
+  padding: 0;
+  width: 23%;
+}
+.icon-list__icon-name {
+  font-size: 14px;
+  margin: 6px;
 }
 </style>
