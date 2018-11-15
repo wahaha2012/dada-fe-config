@@ -1,0 +1,36 @@
+{
+  "name": "fe-config",
+  "version": "0.0.1",
+  "description": "config tool for frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fe-config": "./bin/fe-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wahaha2012/fe-config.git"
+  },
+  "keywords": [
+    "frontend",
+    "config"
+  ],
+  "author": "wxwdesign",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wahaha2012/fe-config/issues"
+  },
+  "homepage": "https://github.com/wahaha2012/fe-config",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cli-color": "^0.3.2",
+    "commander": "^2.6.0",
+    "fs": "0.0.2",
+    "inquirer": "^1.2.2",
+    "merge-pkg": "^0.1.1",
+    "path": "^0.4.9",
+    "shelljs": "^0.3.0"
+  }
+}
