@@ -1,18 +1,18 @@
-eslint-config-abc
+fe-config
 =========
 
-eslint auto config tool
+config tool for frontend project
 
 # install #
 
 ```bash
-$ npm install eslint-config-abc -g
+$ npm install fe-config -g
 ```
 
 # Usage #
 
 ```bash
-# add eslint config for your frontend project
+# add config for your project
 $ cd your-project-directory
-$ eslint-config-abc
+$ fe-config
 ```
